@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.w3schools.com"
+  xmlns="http://www.w3schools.com"
+  elementFormDefault="qualified">
+
+  <xs:element name="users">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="user" type="Tuser" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Tuser">
+    <xs:sequence>
+      <xs:element name="nickname" type="Tnickname"/>
+      <xs:element name="pwd" type="Tpwd"/>
+      <xs:element name="email" type="Temail"/>
+    </xs:sequence>
+    <xs:attribute name="admin" type="xs:boolean" use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="Tnickname">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9]{2,16}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Tpwd">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="4"/>
+      <xs:maxLength value="16"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Temail">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

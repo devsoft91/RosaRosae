@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://www.users.com users.xsd">
+
+  <user admin="true">
+    <nickname>EnricoCeron</nickname>
+    <pwd>1a2b3c4d</pwd>
+    <email>enrico.ceron.1@studenti.unipd.it</email>
+  </user>
+
+  <user admin="true">
+    <nickname>GiacomoBeltrame</nickname>
+    <pwd>123456789</pwd>
+    <email>giacomo.beltrame@studenti.unipd.it</email>
+  </user>
+
+  <user admin="false">
+    <nickname>utente</nickname>
+    <pwd>utente</pwd>
+    <email>utente@utente.com</email>
+  </user>
+
+  <user admin="true">
+    <nickname>admin</nickname>
+    <pwd>admin</pwd>
+    <email>admin@rosarosae.it</email>
+  </user>
+
+</users>

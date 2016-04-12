@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="http://www.w3schools.com"
+  xmlns="http://www.w3schools.com"
+  elementFormDefault="qualified">
+
+  <xs:element name="plants">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="plant" type="Tplant" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="Tplant">
+    <xs:sequence>
+      <xs:element name="date" type="xs:date"/>
+      <xs:element name="author" type="xs:string"/>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="img" type="Timg" minOccurs="0"/>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="specs" type="Tspecs"/>
+      <xs:element name="paragraph" type="Tparagraph" maxOccurs="unbounded"/>
+      <xs:element name="comments" type="Tcomments"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Timg">
+    <xs:attribute name="src" type="xs:anyURI" use="required"/>
+    <xs:attribute name="alt" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="Tspecs">
+    <xs:sequence>
+      <xs:element name="family" type="xs:string"/>
+      <xs:element name="height" type="xs:string"/>
+      <xs:element name="diameter" type="xs:string"/>
+      <xs:element name="light" type="Tlight"/>
+      <xs:element name="terrain" type="Tterrain"/>
+      <xs:element name="temperature" type="xs:integer"/>
+      <xs:element name="ph" type="empty" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="hiquality" type="empty" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="Tlight">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="soleggiato"/>
+      <xs:enumeration value="penombra"/>
+      <xs:enumeration value="ombra"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Tterrain">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="asciutto"/>
+      <xs:enumeration value="umido"/>
+      <xs:enumeration value="bagnato"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="Tparagraph">
+    <xs:sequence>
+      <xs:element name="text" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="title" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="Tcomments">
+    <xs:sequence>
+      <xs:element name="comment" type="Tcomment" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Tcomment">
+    <xs:sequence>
+      <xs:element name="date" type="xs:date"/>
+      <xs:element name="time" type="xs:time"/>
+      <xs:element name="user" type="xs:string"/>
+      <xs:element name="text" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="valid" type="xs:boolean" default="false"/>
+  </xs:complexType>
+
+  <xs:complexType name="empty"/>
+
+</xs:schema>

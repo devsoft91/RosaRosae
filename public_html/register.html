@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="it" lang="it">
+<head>
+  <title>Rosa Rosae - Registrati</title>
+  <!-- PAGINA NON INDICIZZATA -->
+  <meta name="robots" content="noindex, nofollow"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="title" content="Registrati"/>
+  <meta name="author" content="Giacomo Beltrame, Enrico Ceron"/>
+  <meta name="language" content="italian it"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no"/>
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+  <link rel="icon" href="favicon.ico" type="image/ico"/>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'/>
+  <link href="stylesheets/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-device-width: 899px)"/>
+  <link href="stylesheets/desktop.css" rel="stylesheet" type="text/css" media="screen and (min-device-width: 900px)"/>
+  <link href="stylesheets/print.css" rel="stylesheet" type="text/css" media="print"/>
+  <script type="text/javascript" src="script/script.js"></script>
+</head>
+<body onload="CheckForJavaScript()">
+  <div id="navbar">
+    <a class="navigationHelp" href="#content">Vai al contenuto</a>
+    <span id="logo" title="Rosa Rosae"></span>
+    <span id="menuButton" title="Menu" onclick="toggleVisibility('mobileMenu')"></span>
+    <div id="mobileMenu">
+      <ul id="login">
+        <li xml:lang="en"><a href="login.html">LOGIN</a></li>
+        <li>REGISTRATI</li>
+      </ul>
+      <ul id="menu">
+        <li xml:lang="en"><a href="cgi-bin/index.cgi?page=1">HOME</a></li>
+        <li><a href="cgi-bin/about.cgi">CONTATTACI</a></li>
+      </ul>
+    </div>
+    <span id="path">Ti trovi in: Registrati</span>
+  </div>
+  <div id="content">
+    <h1>Registrazione</h1>
+    <form id="form" action="cgi-bin/register.cgi" method="post">
+      <fieldset>
+        <legend>Inserisci i dati necessari alla registrazione.</legend>
+        <label for="nickname" xml:lang="en">Nickname:</label><br/>
+        <input type="text" name="nickname" id="nickname"/><br/>
+        <label for="email">Indirizzo <span xml:lang="en">e-mail</span>:</label><br/>
+        <input type="text" name="email" id="email"/><br/>
+        <label for="pwd"><span xml:lang="en">Password</span> (4-16 caratteri):</label><br/>
+        <input type="password" name="pwd" id="pwd"/><br/>
+        <label for="rpwd">Ripeti <span xml:lang="en">password</span>:</label><br/>
+        <input type="password" name="rpwd" id="rpwd"/><br/>
+        <input type="hidden" name="js" value="disabled"/>
+        <input type="hidden" name="prec" value="none"/>
+        <input type="submit" value="Registrami"/>
+      </fieldset>
+    </form>
+  </div>
+  <div id="footer">
+    <span xml:lang="en">Copyright</span> &#xA9; 2014 - Tutti i diritti riservati.
+  </div>
+</body>
+</html>

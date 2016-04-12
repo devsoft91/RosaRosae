@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../plants.xsl"?>
+<plants xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://www.plants.com plants.xsd">
+
+  <plant id="1">
+    <date>2014-03-20</date>
+    <author>EnricoCeron</author>
+    <title>Malus Sargentii</title>
+    <img src="../img/Malus_sargentii.jpg" alt="Un'immagine dell'arbusto in fiore"/>
+    <specs>
+      <family>rosaceae</family>
+      <height>5 metri</height>
+      <diameter>5 metri</diameter>
+      <light>soleggiato</light>
+      <terrain>asciutto</terrain>
+      <temperature>-15</temperature>
+    </specs>
+    <description>Un arbusto di modeste dimensioni a foglia caduca che fiorisce in primavera.</description>
+    <paragraph title="Aspetto">Arbusto a portamento espanso, spinoso, spesso con l'età simile a un albero.</paragraph>
+    <paragraph title="Fiori">A forma di coppa, riuniti in infiorescenze, di colore bianco brillante. Fine primavera.</paragraph>
+    <paragraph title="Frutti">Di lunga durata, globosi, simili a bacche, di colore rosso intenso.</paragraph>
+    <paragraph title="Foglie">Caduche, ovali, talvolta lobate, di colore verde scuro.</paragraph>
+    <paragraph title="Zona d'origine">Boschi e foreste del Giappone.</paragraph>
+    <paragraph title="Coltivazione">Tollera le condizioni di moderato ombreggiamento e si adatta a tutti i tipi di terreno, tranne quelli soggetti a ristagno idrico. In inverno è consigliabile, se necessario, eliminare il legno morto o ammalato. Può essere sensibile al fuoco batterico. Si tratta di un bell'arbusto con una lunga stagione di interesse, ben fornito di fiori durante la primavera e ricco di piccoli frutti simili a ciliegie in autunno. È adatta ai piccoli giardini e può essere coltivato in siepi o come esemplare isolato in un prato.</paragraph>
+    <paragraph title="Propagazione">Per talea alla fine dell'estate o per innesto in inverno.</paragraph>
+    <comments>
+    </comments>
+  </plant>
+
+  <plant id="2">
+    <date>2014-03-28</date>
+    <author>EnricoCeron</author>
+    <title>Corylus comune contorto</title>
+    <img src="../img/corylus.jpg" alt="Un dettaglio della pianta spoglia in fiore"/>
+    <specs>
+      <family>corylaceae</family>
+      <height>6 metri</height>
+      <diameter>6 metri</diameter>
+      <light>soleggiato</light>
+      <terrain>asciutto</terrain>
+      <temperature>-15</temperature>
+      <hiquality/>
+    </specs>
+    <description>Arbusto particolare a foglia caduca che fiorisce tra gennaio e febbraio.</description>
+    <paragraph title="Aspetto">A portamento arbustivo, con rami spiralati.</paragraph>
+    <paragraph title="Fiori">Gattici penduli, di colore giallo pallido. Fine inverno.</paragraph>
+    <paragraph title="Foglie">Caduche, quasi rotonde, appuntite, finemente dentate, verdi.</paragraph>
+    <paragraph title="Zona d'origine">Ottenuta in Inghilterra nel 1863.</paragraph>
+    <paragraph title="Coltivazione">Tollera le condizioni di moderato ombreggiamento e si adatta a qualsiasi terreno fertile, anche se calcareo. Possiede un bell'aspetto invernale ed è utile per composizioni floreali.</paragraph>
+    <paragraph title="Propagazione">Per innesto a fine estate o per propaggine tra fine autunno e inizio primavera.</paragraph>
+    <comments>
+    </comments>
+  </plant>
+
+  <plant id="3">
+    <date>2014-04-02</date>
+    <author>EnricoCeron</author>
+    <title>Iris cristata</title>
+    <img src="../img/i_cristata.jpg" alt="Un'immagine del fiore"/>
+    <specs>
+      <family>iridaceae</family>
+      <height>10 centimetri</height>
+      <diameter>30 centimetri</diameter>
+      <light>penombra</light>
+      <terrain>umido</terrain>
+      <temperature>-15</temperature>
+      <ph/>
+    </specs>
+    <description>Piccolo fiore ornamentale.</description>
+    <paragraph title="Aspetto">Rizomatoso.</paragraph>
+    <paragraph title="Fiori">Larghi fino a 4 centimetri, quasi privi di steli, in numero di 1-2 per stelo, di colore lilla, blu, lavanda o bianco, con ali e creste di colore arancio.</paragraph>
+    <paragraph title="Foglie">A forma di spada, di colore giallo-verde.</paragraph>
+    <paragraph title="Coltivazione">Preferisce i terreni umidi senza calce.</paragraph>
+    <comments>
+      <comment valid="true">
+        <date>2014-06-01</date>
+        <time>10:46:26</time>
+        <user>GiacomoBeltrame</user>
+        <text>bella pianta</text>
+      </comment>
+</comments>
+  </plant>
+
+  <plant id="4">
+    <date>2014-04-19</date>
+    <author>EnricoCeron</author>
+    <title>Ranuncolo a foglie di Aconito</title>
+    <img src="../img/ranunculus-aconitifolius.jpg" alt="Un'immagine del fiore sbocciato"/>
+    <specs>
+      <family>ranunculaceae</family>
+      <height>1 metro</height>
+      <diameter>1 metro</diameter>
+      <light>soleggiato</light>
+      <terrain>umido</terrain>
+      <temperature>-15</temperature>
+    </specs>
+    <description>Piccolo fiore selvaggio d'ornamento. Bianco, sboccia in primavera.</description>
+    <paragraph title="Aspetto">Robusto e cespitoso.</paragraph>
+    <paragraph title="Fiori">Semplici, a coppa, larghi fino a 2,5 centimetri, bianchi talvolta con sfumature rosa, in primavera e all'inizio dell'estate.</paragraph>
+    <paragraph title="Foglie">A 3 o 5 lobi, di colore verde scuro.</paragraph>
+    <paragraph title="Zona d'origine">Prati subalpini e rive di corsi d'acqua, dall'Europa occidentale a quella centrale.</paragraph>
+    <paragraph title="Coltivazione">In terreno fertile, umido, ricco di humus e al sole. Per un giardino di fiori selvatici, un bordo erbaceo o lungo un fiume al di sotto del livello dell'acqua.</paragraph>
+    <paragraph title="Propagazione">Per seme in primavera o per divisione in primavera e in autunno.</paragraph>
+    <comments>
+    </comments>
+  </plant>
+
+  <plant id="5">
+    <date>2014-04-22</date>
+    <author>EnricoCeron</author>
+    <title>Impatiens Repens</title>
+    <img src="../img/impatiens_repens.jpg" alt="Immagine del particolare fiore giallo"/>
+    <specs>
+      <family>balsaminaceae</family>
+      <height>10 centimetri</height>
+      <diameter>indefinito</diameter>
+      <light>soleggiato</light>
+      <terrain>umido</terrain>
+      <temperature>-10</temperature>
+      <hiquality/>
+    </specs>
+    <description>Pianta tappezzante dal fiore particolare, coltivabile sia all'interno che all'esterno.</description>
+    <paragraph title="Aspetto">Strisciante con fusti che radicano al suolo.</paragraph>
+    <paragraph title="Fiori">A 5 petali con grande sperone ricoperto di sottile peluria, giallo intenso, in estate.</paragraph>
+    <paragraph title="Foglie">Sempreverdi, dentellate, reniformi, di colore verde.</paragraph>
+    <paragraph title="Zona d'origine">Sri Lanka e India.</paragraph>
+    <paragraph title="Coltivazione">In zone rigide come pianta da serra o appartamento, in terriccio umido e ben drenato. Se coltivato all'esterno richiede un'esposizione soleggiata. Ricopre il terreno in un bordo erbaceo o misto.</paragraph>
+    <paragraph title="Propagazione">Per seme o per talea di stelo, in primavera o in estate.</paragraph>
+    <comments>
+      <comment valid="true">
+        <date>2014-05-16</date>
+        <time>09:55:32</time>
+        <user>EnricoCeron</user>
+        <text>basta, non tocco più niente</text>
+      </comment>
+      <comment valid="true">
+        <date>2014-05-16</date>
+        <time>10:31:11</time>
+        <user>GiacomoBeltrame</user>
+        <text>lol</text>
+      </comment>
+          <comment valid="true">
+        <date>2014-06-22</date>
+        <time>17:43:11</time>
+        <user>EnricoCeron</user>
+        <text>come non detto...</text>
+      </comment>
+</comments>
+  </plant>
+
+  <plant id="6">
+    <date>2014-06-25</date>
+    <author>GiacomoBeltrame</author>
+    <title>Ciclamino</title>
+    <img src="../img/ciclamino.jpg" alt="Un'immagine del fiore del ciclamino"/>
+    <specs>
+      <family>primulaceae</family>
+      <height>15 centimetri</height>
+      <diameter>20 centimetri</diameter>
+      <light>ombra</light>
+      <terrain>umido</terrain>
+      <temperature>0</temperature>
+    </specs>
+    <description>Fiore selvatico amante dell'ombra.</description>
+    <paragraph title="Fiori">Genera delicati fiori rosati. I fiori sono zigomorfi, pentameri (calice e corolla con 5 elementi) e tetraciclici (formati da quattro elementi: calice – corolla – androceo – gineceo). Del fiore la parte persistente è il calice a sostegno del frutto.</paragraph>
+    <paragraph title="Foglie">Le foglie sono unicamente basali a forme varie ma sempre indivise e con un lungo picciolo. La pagina superiore può essere macchiata variamente di bianco, mentre quella inferiore può presentare delle screziature rosseggianti in proseguimento del picciolo, rossastro pure lui.</paragraph>
+    <paragraph title="Frutti">Il frutto è una capsula sferica uniloculare deiscente. I semi contenuti nel frutto sono più o meno tondi con circa 1 - 2 millimetri di diametro; raggiungono la maturità dopo un anno dalla fioritura.</paragraph>
+    <paragraph title="Distribuzione">Si distribuiscono attorno al bacino del Mediterraneo.</paragraph>
+    <paragraph title="Coltivazione">In vaso o in terra, ambienti freschi, umidi e protetti dal sole estivo con terriccio di foglie e letame mescolato a sabbia.</paragraph>
+    <paragraph title="Propagazione">Normalmente per seme o per divisione del tubero se esemplari piu grossi.</paragraph>
+    <comments>
+    </comments>
+  </plant>
+  
+  <plant id="7">
+    <date>2014-06-27</date>
+    <author>GiacomoBeltrame</author>
+    <title>Viola</title>
+    <img src="../img/viola.jpg" alt="immagine del fiore della viola"/>
+    <specs>
+      <family>Violaceae</family>
+      <height>15 centimetri</height>
+      <diameter>10 centimetri</diameter>
+      <light>penombra</light>
+      <terrain>umido</terrain>
+      <temperature>0</temperature>
+      <hiquality/>
+    </specs>
+    <description>Fiori annuali o perenni dai colori caratteristici.</description>
+    <paragraph title="Fiori">Tra le specie più note, coltivate come annuali, i fiori, sono molto grandi e di vari colori. Tra le specie perenni coltivate come biennali i fiori sono di color violaceo. Tra le perenni i fiori a varietà grande e molto profumati sono di colore viola-intenso. Infine, vi sono viole a fiori gialli o lillà.</paragraph>
+    <paragraph title="Distribuzione">La viola è diffusa in Europa, nelle zone tropicali e in America del nord, centrale e del sud.</paragraph>
+    <paragraph title="Coltivazione">Gradiscono posizioni ombreggiate, terreno soffice, ricco, di medio impasto, fresco, adattandosi però a qualunque tipo di suolo, le specie perenni possono fiorire per tutto l'inverno nelle zone a clima mite mentre nei climi più gelidi vanno riparate sotto vetro.</paragraph>
+    <paragraph title="Propagazione">Le specie di Viola si riproducono sia sessualmente (con ricombinazione dei caratteri) che vegetativamente (senza ricombinazione). I fiori più grandi portati in alto vengono impollinati dagli insetti, mentre i fiori più piccoli, localizzati in basso, non si aprono mai (cleistogamia) e attuano l'autoimpollinazione. I semi, che in questo caso hanno corredo genetico simile a quello della pianta che li origina cadono e germinano vicino alla pianta madre. Inoltre possono essere presenti degli stoloni, modificazioni di fusti che attuano la moltiplicazione vegetativa e danno origine a nuove piante geneticamente identiche alla pianta madre. Si moltiplicano con la semina a fine estate per avere la fioritura dalla fine dell'inverno successivo, o per divisione dei cespi alla fine della fioritura.</paragraph>
+    <comments>
+    </comments>
+  </plant>
+
+  <plant id="8">
+    <date>2014-06-27</date>
+    <author>GiacomoBeltrame</author>
+    <title>Orchidea</title>
+    <img src="../img/orchidea.jpg" alt="immagine dei fiori di una delle specie di orchidea"/>
+    <specs>
+      <family>Orchidaceae</family>
+      <height>50 centimetri</height>
+      <diameter>35 centimetri</diameter>
+      <light>soleggiato</light>
+      <terrain>asciutto</terrain>
+      <temperature>0</temperature>
+      <hiquality/>
+    </specs>
+    <description>Pianta con fiori dalle mille forme e colori.</description>
+    <paragraph title="Aspetto">Larghe foglie alla base con lunghe ramificazioni verso l'alto terminanti con una serie di fiori.</paragraph>
+    <paragraph title="Fiori">I fiori hanno una tipica struttura alata, con un perigonio di tre sepali superiori e tre petali inferiori; uno di questi, detto labello, si differenzia per formato dagli altri in modo da attirare gli insetti impollinatori. Colore e forma dei petali variano da specie a specie.</paragraph>
+    <paragraph title="Foglie">Le foglie sono sempre intere e malgrado la loro natura polimorfa hanno una struttura lineare, che a volte può apparire carnosa e di forma tubolare. La disposizione delle foglie è alternata o distica: solo di rado si presentano opposte.</paragraph>
+    <paragraph title="Radici">Le specie tropicali hanno spesso radici aeree carnose o fini, mentre le specie europee e mediterranee sono, con poche eccezioni, specie terricole, con apparato radicale sotterraneo, costituito da rizotuberi o bulbi, da cui si dipartono radichette o radici filiformi.</paragraph>
+    <paragraph title="Distribuzione">La maggior parte delle specie è originaria delle zone tropicali o sub-tropicali di Asia, America centrale e Sudamerica; solo il 15% di esse cresce spontaneamente nelle zone temperate e fredde. La famiglia è comunque da ritenersi cosmopolita essendo diffusa nei cinque continenti, con un areale che si estende da alcuni territori a nord del circolo polare artico, sino alla Patagonia.</paragraph>
+    <paragraph title="Coltivazione">Il terreno per le radici (in un vaso che lascia trasparire la luce) va costituito da pezzetti di corteccia, fibra di cocco, torba; la concimatura andrebbe fatta almeno ogni 15 giorni utilizzando specifici concimi per le orchidee che andrà unito all’acqua in quantità minime e nebulizzato sulla pianta.</paragraph>
+    <paragraph title="Propagazione">La riproduzione delle Orchidaceae può essere sia sessuata che asessuata. La riproduzione sessuata può avvenire sia per impollinazione incrociata, cioè con trasporto del polline dall'antera di un fiore sullo stigma del fiore di un altro individuo, sia per autoimpollinazione, cioè il polline passa dall'antera allo stigma dello stesso fiore. La riproduzione asessuata può avvenire sia per moltiplicazione vegetativa, con formazione di nuovi individui a partire da una suddivisione dei rizotuberi, sia per apomissia, cioè con produzione di semi fertili senza necessità di fecondazione.</paragraph>
+    <paragraph title="Significato dei fiori">L’orchidea in Oriente rappresenta perfezione per la simmetria dei suoi petali con lo stelo e purezza (viene spesso regalata ai bambini), in Occidente invece è correlata all’amore, per la sua capacità di crescere ovunque, in ogni continente, a esclusione dell’Antartide. Ad esempio, l’orchidea rosa è simbolo di affetto e amore e viene spesso regalata al 14° anniversario di matrimonio, mentre quella gialla o color crema è adatta per il 28°; le profumatissime Cattleya amate da Proust sono associate all’avanzare dell’età e perfette per le donne mature, mentre quelle marroni scuro simboleggiano autorità e potere.</paragraph>
+    <comments>
+    </comments>
+  </plant>
+
+</plants>

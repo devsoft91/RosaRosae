@@ -1,0 +1,32 @@
+/* LAYOUT PER LA STAMPA */
+
+body {
+  font-size: 10pt;
+  font-family: "Roboto Slab", Times;
+}
+
+#navbar, #navigationHelp, textarea, form, input {
+  display: none;
+}
+
+#content img {
+  width: 300px;
+  margin: 10px;
+}
+
+#backOnTop {
+  display: none;
+}
+
+#pagesNav {
+  text-align: center;
+}
+
+#contentFooter {
+  font-size: 8pt;
+}
+
+#footer {
+  text-align: center;
+  font-size: 8pt;
+}
